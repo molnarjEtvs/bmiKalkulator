@@ -12,6 +12,29 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script> 
 </head>
 <body>
-    
+    <div class="container">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4">
+                <div class="bg-success p-3 text-white mt-3 rounded">
+                    <h1>BMI kalkulátor</h1>
+                    <div class="mt-3">
+                        <label for="testMag">Testmagasság (cm):</label>
+                        <input type="number" id="testMag" class="form-control">
+                    </div>
+                    <div class="mt-3">
+                        <label for="suly">Súly (kg):</label>
+                        <input type="number"  id="suly" class="form-control">
+                    </div>
+                    <div class="mt-4 d-grid">
+                        <button type="button" class="btn btn-light">Kiszámol</button>
+                    </div>
+                </div>
+                <div id="eredmeny"></div>
+            </div>
+            <div class="col-4"></div>
+        </div>
+    </div>
+
 </body>
 </html>
